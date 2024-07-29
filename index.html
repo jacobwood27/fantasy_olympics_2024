@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Who you got??</title>
+    <title>Olympic Sports Navigation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -82,40 +83,56 @@
             max-width: 100%;
             font-size: 14px;
         }
-        
-        th, td {
+
+        th,
+        td {
             border: 1px solid #ddd;
             padding: 4px;
             text-align: left;
         }
-        
+
         th {
             background-color: #f2f2f2;
         }
-        
+
         .nowrap {
             white-space: nowrap;
         }
-        
+
         .wrap {
             word-wrap: break-word;
-            max-width: 150px; /* Adjust this value as needed */
+            max-width: 150px;
+            /* Adjust this value as needed */
         }
-        
+
         @media screen and (max-width: 600px) {
             table {
                 font-size: 12px;
             }
-        
-            th, td {
+
+            th,
+            td {
                 padding: 2px;
             }
-        
+
             .wrap {
-                max-width: 100px; /* Adjust this value for mobile */
+                max-width: 100px;
+                /* Adjust this value for mobile */
             }
+
+        }
+
+        #scoreChart {
+            width: 100%;
+            height: 300px; /* Adjust as needed */
         }
         
+        @media screen and (min-width: 601px) {
+            #scoreChart {
+                height: 400px; /* Slightly taller on larger screens */
+            }
+        }
+
     </style>
 </head>
 
@@ -383,7 +400,17 @@
 
         function createHomeScreen(data) {
             container.innerHTML = '';
-            
+
+            // Create scoreboard button
+            const scoreboardButton = document.createElement('button');
+            scoreboardButton.textContent = 'Scoreboard';
+            scoreboardButton.addEventListener('click', displayScoreboard);
+            container.appendChild(scoreboardButton);
+
+            // Add a line break
+            container.appendChild(document.createElement('br'));
+            container.appendChild(document.createElement('br'));
+
             // Create sport buttons
             const sportContainer = document.createElement('div');
             sportContainer.className = 'button-container';
@@ -393,29 +420,29 @@
             createButtons(data, sportButtonGrid);
             sportContainer.appendChild(sportButtonGrid);
             container.appendChild(sportContainer);
-            
+
             // Add a line break
             container.appendChild(document.createElement('br'));
             container.appendChild(document.createElement('br'));
-            
+
             // Create date buttons
             const dateContainer = document.createElement('div');
             dateContainer.className = 'button-container';
             dateContainer.innerHTML = '<h2>Dates</h2>';
             const dateButtonGrid = document.createElement('div');
             dateButtonGrid.className = 'button-grid';
-            
+
             // Add "ALL" button
             const allButton = document.createElement('button');
             allButton.textContent = 'ALL';
             allButton.addEventListener('click', () => navigateByDate('ALL'));
             dateButtonGrid.appendChild(allButton);
-        
+
             const dates = new Set();
-            Object.values(data).forEach(sport => 
-                Object.values(sport).forEach(gender => 
-                    Object.values(gender).forEach(event => 
-                        Object.values(event).forEach(athlete => 
+            Object.values(data).forEach(sport =>
+                Object.values(sport).forEach(gender =>
+                    Object.values(gender).forEach(event =>
+                        Object.values(event).forEach(athlete =>
                             dates.add(athlete.date)
                         )
                     )
@@ -424,6 +451,282 @@
             createButtons(Object.fromEntries(Array.from(dates).map(date => [date, {}])), dateButtonGrid, true);
             dateContainer.appendChild(dateButtonGrid);
             container.appendChild(dateContainer);
+        }
+
+        function calculateScores() {
+            const scores = {};
+            let totalPredicted = 0;
+
+            Object.values(olympicData).forEach(sport =>
+                Object.values(sport).forEach(gender =>
+                    Object.values(gender).forEach(event =>
+                        Object.entries(event).forEach(([name, data]) => {
+                            if (!scores[name]) {
+                                scores[name] = { actualPoints: 0, predictedPoints: 0 };
+                            }
+
+                            const actualPoints = data.actual !== "" ? parseFloat(data.actual) : null;
+                            const expectedPoints = parseFloat(data.expected) || 0;
+
+                            scores[name].actualPoints += actualPoints !== null ? actualPoints : 0;
+
+                            // Use actual if it's available (including "0.0"), otherwise use expected
+                            const pointsToAdd = actualPoints !== null ? actualPoints : expectedPoints;
+                            scores[name].predictedPoints += pointsToAdd;
+
+                            totalPredicted += pointsToAdd;
+                        })
+                    )
+                )
+            );
+
+
+            return Object.entries(scores).map(([name, points]) => ({
+                name,
+                actualPoints: points.actualPoints,
+                predictedPoints: points.predictedPoints
+            })).sort((a, b) => b.actualPoints - a.actualPoints);
+        }
+
+        function getLatestActualDate() {
+            let latestDate = null;
+            Object.values(olympicData).forEach(sport => 
+                Object.values(sport).forEach(gender => 
+                    Object.values(gender).forEach(event => 
+                        Object.values(event).forEach(athlete => {
+                            if (athlete.actual !== "" && (!latestDate || new Date(athlete.date) > new Date(latestDate))) {
+                                latestDate = athlete.date;
+                            }
+                        })
+                    )
+                )
+            );
+            return latestDate;
+        }
+
+        function displayScoreboard() {
+            const scores = calculateScores();
+            container.innerHTML = '<h2>Scoreboard</h2>';
+            
+            const colors = generateColors(scores.length);
+            
+            // Create table
+            const table = document.createElement('table');
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th class="nowrap">Name</th>
+                        <th class="nowrap">Actual Points</th>
+                        <th class="nowrap">Predicted Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${scores.map((score, index) => `
+                        <tr data-name="${score.name}" style="background-color: ${colors[index]};">
+                            <td class="nowrap">${score.name}</td>
+                            <td class="nowrap">${score.actualPoints.toFixed(1)}</td>
+                            <td class="nowrap">${score.predictedPoints.toFixed(1)}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            `;
+            container.appendChild(table);
+            
+            // Add some space between table and chart
+            container.appendChild(document.createElement('br'));
+            container.appendChild(document.createElement('br'));
+            
+            // Create canvas for chart
+            const canvas = document.createElement('canvas');
+            canvas.id = 'scoreChart';
+            container.appendChild(canvas);
+            
+            // Create chart
+            const chart = createScoreChart(scores, colors);
+            
+            // Add hover events to table rows
+            table.querySelectorAll('tbody tr').forEach((row, index) => {
+                row.addEventListener('mouseenter', () => {
+                    const name = row.dataset.name;
+                    highlightLine(chart, name, colors[index]);
+                });
+                row.addEventListener('mouseleave', () => {
+                    resetLines(chart, colors);
+                });
+            });
+            
+            // Add some space after the chart
+            container.appendChild(document.createElement('br'));
+            
+            // Add back button
+            const backButton = document.createElement('button');
+            backButton.textContent = 'Back to Home';
+            backButton.addEventListener('click', () => createHomeScreen(olympicData));
+            container.appendChild(backButton);
+        }
+
+        function createScoreChart(scores, colors) {
+            const dates = getAllDates();
+            const latestActualDate = getLatestActualDate();
+            const latestActualIndex = dates.indexOf(latestActualDate);
+        
+            const datasets = scores.map((score, index) => {
+                const data = calculatePointsOverTime(score.name, dates);
+                return {
+                    label: score.name,
+                    data: data,
+                    borderColor: 'rgba(200, 200, 200, 0.8)',
+                    backgroundColor: colors[index],
+                    fill: false,
+                    tension: 0.1,
+                    borderWidth: 1,
+                    pointRadius: 0,
+                    zIndex: 0
+                    // Remove the segment property here
+                };
+            });
+        
+            const ctx = document.getElementById('scoreChart').getContext('2d');
+            const chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: dates,
+                    datasets: datasets
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: 'Points Over Time'
+                    },
+                    tooltips: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    hover: {
+                        mode: 'nearest',
+                        intersect: true
+                    },
+                    scales: {
+                        x: {
+                            display: false,
+                            scaleLabel: {
+                                display: false,
+                                labelString: 'Date'
+                            }
+                        },
+                        y: {
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Points'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        
+            return chart;
+        }
+
+        function generateColors(numColors) {
+            const hueStep = 360 / numColors;
+            return Array.from({ length: numColors }, (_, i) => {
+                const hue = i * hueStep;
+                return `hsl(${hue}, 70%, 60%)`; // Lowered lightness from 80% to 60%
+            });
+        }
+
+        function highlightLine(chart, name, color) {
+            const latestActualDate = getLatestActualDate();
+            const latestActualIndex = chart.data.labels.indexOf(latestActualDate);
+        
+            chart.data.datasets.forEach((dataset, index) => {
+                if (dataset.label === name) {
+                    dataset.borderColor = color;
+                    dataset.borderWidth = 4;
+                    dataset.zIndex = 1;
+                    dataset.segment = {
+                        borderDash: ctx => ctx.p1DataIndex > latestActualIndex ? [5, 5] : undefined,
+                    };
+                } else {
+                    dataset.borderColor = 'rgba(200, 200, 200, 0.3)';
+                    dataset.borderWidth = 1;
+                    dataset.zIndex = 0;
+                    dataset.segment = undefined; // Remove dashed style for non-highlighted lines
+                }
+            });
+            chart.data.datasets.sort((a, b) => b.zIndex - a.zIndex);
+            chart.update();
+        }
+        
+        function resetLines(chart, colors) {
+            chart.data.datasets.forEach((dataset, index) => {
+                dataset.borderColor = 'rgba(200, 200, 200, 0.8)';
+                dataset.borderWidth = 1;
+                dataset.zIndex = 0;
+                dataset.segment = undefined; // Remove all dashed styles
+            });
+            chart.update();
+        }
+
+        function getAllDates() {
+            const dates = new Set();
+            Object.values(olympicData).forEach(sport => 
+                Object.values(sport).forEach(gender => 
+                    Object.values(gender).forEach(event => 
+                        Object.values(event).forEach(athlete => 
+                            dates.add(athlete.date)
+                        )
+                    )
+                )
+            );
+            const sortedDates = Array.from(dates).sort((a, b) => new Date(a) - new Date(b));
+            
+            // Add a day before the first event
+            const firstDate = new Date(sortedDates[0]);
+            firstDate.setDate(firstDate.getDate() - 1);
+            const dayBefore = firstDate.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit' });
+            
+            return [dayBefore, ...sortedDates];
+        }
+
+        function calculatePointsOverTime(name, dates) {
+            let totalPoints = 0;
+            return dates.map((date, index) => {
+                if (index === 0) return 0; // First day (added day) is always 0
+                
+                let pointsForDate = 0;
+                Object.values(olympicData).forEach(sport => 
+                    Object.values(sport).forEach(gender => 
+                        Object.values(gender).forEach(event => {
+                            if (event[name] && event[name].date === date) {
+                                if (event[name].actual !== "") {
+                                    pointsForDate += parseFloat(event[name].actual) || 0;
+                                } else {
+                                    pointsForDate += parseFloat(event[name].expected) || 0;
+                                }
+                            }
+                        })
+                    )
+                );
+                totalPoints += pointsForDate;
+                return totalPoints;
+            });
+        }
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
         }
 
         function navigate(key, data) {
@@ -448,7 +751,7 @@
         function displayDateEvents(date, events) {
             container.innerHTML = '';
             const info = document.createElement('div');
-            
+
             let tableHTML = `
                 <h2>${date === 'ALL' ? 'All Dates' : date}</h2>
                 <table>
@@ -461,9 +764,9 @@
                         ${date === 'ALL' ? '<th>Date</th>' : ''}
                     </tr>
             `;
-        
+
             events.sort((a, b) => b.expectedPoints - a.expectedPoints);
-        
+
             events.forEach(event => {
                 tableHTML += `
                     <tr>
@@ -476,7 +779,7 @@
                     </tr>
                 `;
             });
-        
+
             tableHTML += '</table>';
             info.innerHTML = tableHTML;
             container.appendChild(info);
@@ -488,23 +791,23 @@
             buttonsContainer.className = 'button-container';
             const buttonGrid = document.createElement('div');
             buttonGrid.className = 'button-grid';
-            
+
             Object.keys(athletesByDate).sort().forEach(name => {
                 const button = document.createElement('button');
                 button.textContent = name;
                 button.addEventListener('click', () => displayAthleteInfo(name, athletesByDate[name], date));
                 buttonGrid.appendChild(button);
             });
-            
+
             buttonsContainer.appendChild(buttonGrid);
             container.appendChild(buttonsContainer);
         }
 
         function navigateByDate(date) {
             const athletesByDate = {};
-            Object.entries(olympicData).forEach(([sport, genders]) => 
-                Object.entries(genders).forEach(([gender, events]) => 
-                    Object.entries(events).forEach(([event, athletes]) => 
+            Object.entries(olympicData).forEach(([sport, genders]) =>
+                Object.entries(genders).forEach(([gender, events]) =>
+                    Object.entries(events).forEach(([event, athletes]) =>
                         Object.entries(athletes).forEach(([name, data]) => {
                             if (date === 'ALL' || data.date === date) {
                                 if (!athletesByDate[name]) {
@@ -516,7 +819,7 @@
                     )
                 )
             );
-            
+
             navigationStack.push({ key: date, data: athletesByDate });
             displayAthleteButtons(date, athletesByDate);
             updateHomeButton();
@@ -526,7 +829,7 @@
         function displayAthleteInfo(name, data, date) {
             container.innerHTML = '';
             const info = document.createElement('div');
-            
+
             let tableHTML = `
                 <h2>${name} - ${date === 'ALL' ? 'All Dates' : date}</h2>
                 <div class="table-container">
@@ -543,12 +846,12 @@
                         </thead>
                         <tbody>
             `;
-        
+
             // Convert object to array and sort by expected points
             const sortedEvents = Object.entries(data)
-                .map(([event, eventData]) => ({event, ...eventData}))
+                .map(([event, eventData]) => ({ event, ...eventData }))
                 .sort((a, b) => b.expected - a.expected);
-        
+
             sortedEvents.forEach((eventData) => {
                 tableHTML += `
                     <tr>
@@ -561,7 +864,7 @@
                     </tr>
                 `;
             });
-        
+
             tableHTML += '</tbody></table></div>';
             info.innerHTML = tableHTML;
             container.appendChild(info);
