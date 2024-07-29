@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Sports Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 8px;
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px 5px;
+            font-size: 12px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            word-wrap: break-word;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button:nth-child(5n+1) {
+            background-color: #0081C8;
+        }
+
+        button:nth-child(5n+2) {
+            background-color: #FCB131;
+            color: black;
+        }
+
+        button:nth-child(5n+3) {
+            background-color: #000000;
+        }
+
+        button:nth-child(5n+4) {
+            background-color: #00A651;
+        }
+
+        button:nth-child(5n+5) {
+            background-color: #EE334E;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        #home-button {
+            margin-bottom: 10px;
+            background-color: #666;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 100%;
+            font-size: 14px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 4px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .nowrap {
+            white-space: nowrap;
+        }
+        
+        .wrap {
+            word-wrap: break-word;
+            max-width: 150px; /* Adjust this value as needed */
+        }
+        
+        @media screen and (max-width: 600px) {
+            table {
+                font-size: 12px;
+            }
+        
+            th, td {
+                padding: 2px;
+            }
+        
+            .wrap {
+                max-width: 100px; /* Adjust this value for mobile */
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="button-container" id="button-container"></div>
+    <br>
+    <br>
+    <button id="home-button">Home</button>
+
+    <script>
+        const countryMap = {
+            // Africa
+            "ALG": "Algeria",
+            "ANG": "Angola",
+            "BEN": "Benin",
+            "BOT": "Botswana",
+            "BUR": "Burkina Faso",
+            "BDI": "Burundi",
+            "CMR": "Cameroon",
+            "CPV": "Cabo Verde",
+            "CAF": "Central African Republic",
+            "CHA": "Chad",
+            "COM": "Comoros",
+            "CGO": "Congo",
+            "COD": "Democratic Republic of the Congo",
+            "CIV": "Côte d'Ivoire",
+            "DJI": "Djibouti",
+            "EGY": "Egypt",
+            "ERI": "Eritrea",
+            "SWZ": "Eswatini",
+            "ETH": "Ethiopia",
+            "GAB": "Gabon",
+            "GAM": "Gambia",
+            "GHA": "Ghana",
+            "GUI": "Guinea",
+            "GBS": "Guinea-Bissau",
+            "GEQ": "Equatorial Guinea",
+            "KEN": "Kenya",
+            "LES": "Lesotho",
+            "LBR": "Liberia",
+            "LBA": "Libya",
+            "MAD": "Madagascar",
+            "MAW": "Malawi",
+            "MLI": "Mali",
+            "MAR": "Morocco",
+            "MRI": "Mauritius",
+            "MTN": "Mauritania",
+            "MOZ": "Mozambique",
+            "NAM": "Namibia",
+            "NIG": "Niger",
+            "NGR": "Nigeria",
+            "UGA": "Uganda",
+            "RWA": "Rwanda",
+            "STP": "Sao Tome and Principe",
+            "SEN": "Senegal",
+            "SEY": "Seychelles",
+            "SLE": "Sierra Leone",
+            "SOM": "Somalia",
+            "RSA": "South Africa",
+            "SSD": "South Sudan",
+            "SUD": "Sudan",
+            "TAN": "United Republic of Tanzania",
+            "TOG": "Togo",
+            "TUN": "Tunisia",
+            "ZAM": "Zambia",
+            "ZIM": "Zimbabwe",
+
+            // The Americas
+            "ANT": "Antigua and Barbuda",
+            "ARG": "Argentina",
+            "ARU": "Aruba",
+            "BAH": "Bahamas",
+            "BAR": "Barbados",
+            "BIZ": "Belize",
+            "BER": "Bermuda",
+            "BOL": "Bolivia",
+            "BRA": "Brazil",
+            "CAY": "Cayman Islands",
+            "CAN": "Canada",
+            "CHI": "Chile",
+            "COL": "Colombia",
+            "CRC": "Costa Rica",
+            "CUB": "Cuba",
+            "DOM": "Dominican Republic",
+            "DMA": "Dominica",
+            "ESA": "El Salvador",
+            "ECU": "Ecuador",
+            "GRN": "Grenada",
+            "GUA": "Guatemala",
+            "GUY": "Guyana",
+            "HAI": "Haiti",
+            "HON": "Honduras",
+            "JAM": "Jamaica",
+            "MEX": "Mexico",
+            "NCA": "Nicaragua",
+            "PAN": "Panama",
+            "PAR": "Paraguay",
+            "PER": "Peru",
+            "PUR": "Puerto Rico",
+            "SKN": "Saint Kitts and Nevis",
+            "LCA": "Saint Lucia",
+            "VIN": "St. Vincent and the Grenadines",
+            "SUR": "Suriname",
+            "TTO": "Trinidad and Tobago",
+            "USA": "United States of America",
+            "URU": "Uruguay",
+            "VEN": "Venezuela",
+            "IVB": "Virgin Islands, British",
+            "ISV": "Virgin Islands, US",
+
+            // Asia
+            "AFG": "Afghanistan",
+            "BRN": "Bahrain",
+            "BAN": "Bangladesh",
+            "BHU": "Bhutan",
+            "BRU": "Brunei Darussalam",
+            "CAM": "Cambodia",
+            "CHN": "People's Republic of China",
+            "KOR": "Republic of Korea",
+            "HKG": "Hong Kong, China",
+            "IND": "India",
+            "INA": "Indonesia",
+            "IRI": "Islamic Republic of Iran",
+            "IRQ": "Iraq",
+            "JPN": "Japan",
+            "JOR": "Jordan",
+            "KAZ": "Kazakhstan",
+            "KGZ": "Kyrgyzstan",
+            "KUW": "Kuwait",
+            "LAO": "Lao People's Democratic Republic",
+            "LBN": "Lebanon",
+            "MAS": "Malaysia",
+            "MDV": "Maldives",
+            "MGL": "Mongolia",
+            "MYA": "Myanmar",
+            "NEP": "Nepal",
+            "OMA": "Oman",
+            "PAK": "Pakistan",
+            "PLE": "Palestine",
+            "PHI": "Philippines",
+            "QAT": "Qatar",
+            "PRK": "Democratic People's Republic of Korea",
+            "KSA": "Saudi Arabia",
+            "SGP": "Singapore",
+            "SRI": "Sri Lanka",
+            "SYR": "Syrian Arab Republic",
+            "TJK": "Tajikistan",
+            "TPE": "Chinese Taipei",
+            "THA": "Thailand",
+            "TLS": "Democratic Rep. of Timor-Leste",
+            "TKM": "Turkmenistan",
+            "UAE": "United Arab Emirates",
+            "UZB": "Uzbekistan",
+            "VIE": "Vietnam",
+            "YEM": "Yemen",
+
+            // Europe
+            "ALB": "Albania",
+            "AND": "Andorra",
+            "ARM": "Armenia",
+            "AUT": "Austria",
+            "AZE": "Azerbaijan",
+            "BEL": "Belgium",
+            "BIH": "Bosnia and Herzegovina",
+            "BUL": "Bulgaria",
+            "CYP": "Cyprus",
+            "CRO": "Croatia",
+            "CZE": "Czechia",
+            "DEN": "Denmark",
+            "ESP": "Spain",
+            "EST": "Estonia",
+            "FIN": "Finland",
+            "FRA": "France",
+            "GEO": "Georgia",
+            "GER": "Germany",
+            "GBR": "Great Britain",
+            "GRE": "Greece",
+            "HUN": "Hungary",
+            "IRL": "Ireland",
+            "ISL": "Iceland",
+            "ISR": "Israel",
+            "ITA": "Italy",
+            "KOS": "Kosovo",
+            "LAT": "Latvia",
+            "LIE": "Liechtenstein",
+            "LTU": "Lithuania",
+            "LUX": "Luxembourg",
+            "MKD": "North Macedonia",
+            "MLT": "Malta",
+            "MDA": "Republic of Moldova",
+            "MON": "Monaco",
+            "MNE": "Montenegro",
+            "NED": "Netherlands",
+            "NOR": "Norway",
+            "POL": "Poland",
+            "POR": "Portugal",
+            "ROU": "Romania",
+            "SMR": "San Marino",
+            "SRB": "Serbia",
+            "SVK": "Slovakia",
+            "SLO": "Slovenia",
+            "SWE": "Sweden",
+            "SUI": "Switzerland",
+            "TUR": "Türkiye",
+            "UKR": "Ukraine",
+
+            // Oceania
+            "ASA": "American Samoa",
+            "AUS": "Australia",
+            "COK": "Cook Islands",
+            "FIJ": "Fiji",
+            "GUM": "Guam",
+            "KIR": "Kiribati",
+            "MHL": "Marshall Islands",
+            "FSM": "Federated States of Micronesia",
+            "NRU": "Nauru",
+            "NZL": "New Zealand",
+            "PLW": "Palau",
+            "PNG": "Papua New Guinea",
+            "SOL": "Solomon Islands",
+            "SAM": "Samoa",
+            "TGA": "Tonga",
+            "TUV": "Tuvalu",
+            "VAN": "Vanuatu"
+        };
+
+        let olympicData = {};
+        const container = document.getElementById('button-container');
+        const homeButton = document.getElementById('home-button');
+        let navigationStack = [];
+
+        fetch('tree.json')
+            .then(response => response.json())
+            .then(data => {
+                olympicData = data;
+                navigationStack.push({ key: 'root', data: olympicData });
+                createHomeScreen(olympicData);
+                updateHomeButton();
+            })
+            .catch(error => console.error('Error loading the JSON file:', error));
+
+        function createButtons(data, parentElement, isDate = false) {
+            const sortedKeys = Object.keys(data).sort((a, b) => {
+                if (isDate) {
+                    return new Date(a) - new Date(b);
+                }
+                return a.localeCompare(b, undefined, { sensitivity: 'base' });
+            });
+            sortedKeys.forEach(key => {
+                const button = document.createElement('button');
+                button.textContent = key;
+                button.addEventListener('click', () => {
+                    if (isDate) {
+                        navigateByDate(key);
+                    } else if (navigationStack[navigationStack.length - 1].key instanceof Date) {
+                        displayAthleteInfo(key, data[key]);
+                    } else {
+                        navigate(key, data[key]);
+                    }
+                });
+                parentElement.appendChild(button);
+            });
+        }
+
+        function createHomeScreen(data) {
+            container.innerHTML = '';
+            
+            // Create sport buttons
+            const sportContainer = document.createElement('div');
+            sportContainer.className = 'button-container';
+            sportContainer.innerHTML = '<h2>Sports</h2>';
+            const sportButtonGrid = document.createElement('div');
+            sportButtonGrid.className = 'button-grid';
+            createButtons(data, sportButtonGrid);
+            sportContainer.appendChild(sportButtonGrid);
+            container.appendChild(sportContainer);
+            
+            // Add a line break
+            container.appendChild(document.createElement('br'));
+            container.appendChild(document.createElement('br'));
+            
+            // Create date buttons
+            const dateContainer = document.createElement('div');
+            dateContainer.className = 'button-container';
+            dateContainer.innerHTML = '<h2>Dates</h2>';
+            const dateButtonGrid = document.createElement('div');
+            dateButtonGrid.className = 'button-grid';
+            
+            // Add "ALL" button
+            const allButton = document.createElement('button');
+            allButton.textContent = 'ALL';
+            allButton.addEventListener('click', () => navigateByDate('ALL'));
+            dateButtonGrid.appendChild(allButton);
+        
+            const dates = new Set();
+            Object.values(data).forEach(sport => 
+                Object.values(sport).forEach(gender => 
+                    Object.values(gender).forEach(event => 
+                        Object.values(event).forEach(athlete => 
+                            dates.add(athlete.date)
+                        )
+                    )
+                )
+            );
+            createButtons(Object.fromEntries(Array.from(dates).map(date => [date, {}])), dateButtonGrid, true);
+            dateContainer.appendChild(dateButtonGrid);
+            container.appendChild(dateContainer);
+        }
+
+        function navigate(key, data) {
+            if (typeof data === 'object' && data !== null) {
+                navigationStack.push({ key, data });
+                if (isLeafNode(data[Object.keys(data)[0]])) {
+                    displayEventInfo(key, data);
+                } else {
+                    container.innerHTML = `<h2>${key}</h2>`;
+                    const buttonsContainer = document.createElement('div');
+                    buttonsContainer.className = 'button-container';
+                    const buttonGrid = document.createElement('div');
+                    buttonGrid.className = 'button-grid';
+                    createButtons(data, buttonGrid);
+                    buttonsContainer.appendChild(buttonGrid);
+                    container.appendChild(buttonsContainer);
+                }
+                updateHomeButton();
+            }
+        }
+
+        function displayDateEvents(date, events) {
+            container.innerHTML = '';
+            const info = document.createElement('div');
+            
+            let tableHTML = `
+                <h2>${date === 'ALL' ? 'All Dates' : date}</h2>
+                <table>
+                    <tr>
+                        <th>Sport</th>
+                        <th>Gender</th>
+                        <th>Event</th>
+                        <th>Country</th>
+                        <th>Expected Points</th>
+                        ${date === 'ALL' ? '<th>Date</th>' : ''}
+                    </tr>
+            `;
+        
+            events.sort((a, b) => b.expectedPoints - a.expectedPoints);
+        
+            events.forEach(event => {
+                tableHTML += `
+                    <tr>
+                        <td>${event.sport}</td>
+                        <td>${event.gender}</td>
+                        <td>${event.event}</td>
+                        <td>${countryMap[event.country] || event.country} (${event.country})</td>
+                        <td>${event.expectedPoints}</td>
+                        ${date === 'ALL' ? `<td>${event.date}</td>` : ''}
+                    </tr>
+                `;
+            });
+        
+            tableHTML += '</table>';
+            info.innerHTML = tableHTML;
+            container.appendChild(info);
+        }
+
+        function displayAthleteButtons(date, athletesByDate) {
+            container.innerHTML = `<h2>${date === 'ALL' ? 'All Dates' : date}</h2>`;
+            const buttonsContainer = document.createElement('div');
+            buttonsContainer.className = 'button-container';
+            const buttonGrid = document.createElement('div');
+            buttonGrid.className = 'button-grid';
+            
+            Object.keys(athletesByDate).sort().forEach(name => {
+                const button = document.createElement('button');
+                button.textContent = name;
+                button.addEventListener('click', () => displayAthleteInfo(name, athletesByDate[name], date));
+                buttonGrid.appendChild(button);
+            });
+            
+            buttonsContainer.appendChild(buttonGrid);
+            container.appendChild(buttonsContainer);
+        }
+
+        function navigateByDate(date) {
+            const athletesByDate = {};
+            Object.entries(olympicData).forEach(([sport, genders]) => 
+                Object.entries(genders).forEach(([gender, events]) => 
+                    Object.entries(events).forEach(([event, athletes]) => 
+                        Object.entries(athletes).forEach(([name, data]) => {
+                            if (date === 'ALL' || data.date === date) {
+                                if (!athletesByDate[name]) {
+                                    athletesByDate[name] = {};
+                                }
+                                athletesByDate[name][event] = { sport, gender, event, ...data };
+                            }
+                        })
+                    )
+                )
+            );
+            
+            navigationStack.push({ key: date, data: athletesByDate });
+            displayAthleteButtons(date, athletesByDate);
+            updateHomeButton();
+        }
+
+
+        function displayAthleteInfo(name, data, date) {
+            container.innerHTML = '';
+            const info = document.createElement('div');
+            
+            let tableHTML = `
+                <h2>${name} - ${date === 'ALL' ? 'All Dates' : date}</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="nowrap">Sport</th>
+                                <th class="nowrap">Gender</th>
+                                <th class="wrap">Event</th>
+                                <th class="nowrap">Country</th>
+                                <th class="nowrap">Expected</th>
+                                ${date === 'ALL' ? '<th class="nowrap">Date</th>' : ''}
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+        
+            // Convert object to array and sort by expected points
+            const sortedEvents = Object.entries(data)
+                .map(([event, eventData]) => ({event, ...eventData}))
+                .sort((a, b) => b.expected - a.expected);
+        
+            sortedEvents.forEach((eventData) => {
+                tableHTML += `
+                    <tr>
+                        <td class="wrap">${eventData.sport}</td>
+                        <td class="nowrap">${eventData.gender}</td>
+                        <td class="wrap">${eventData.event}</td>
+                        <td class="nowrap">${eventData.country}</td>
+                        <td class="nowrap">${eventData.expected}</td>
+                        ${date === 'ALL' ? `<td class="nowrap">${eventData.date}</td>` : ''}
+                    </tr>
+                `;
+            });
+        
+            tableHTML += '</tbody></table></div>';
+            info.innerHTML = tableHTML;
+            container.appendChild(info);
+            navigationStack.push({ key: name, data: data });
+            updateHomeButton();
+        }
+
+        function isLeafNode(data) {
+            return data.hasOwnProperty('country') &&
+                data.hasOwnProperty('expected') &&
+                data.hasOwnProperty('actual') &&
+                data.hasOwnProperty('date');
+        }
+
+        function displayEventInfo(eventName, athletesData) {
+            container.innerHTML = '';
+            const info = document.createElement('div');
+
+            const sport = navigationStack[1].key;
+            const gender = navigationStack[2].key;
+
+            const sortedAthletes = Object.entries(athletesData)
+                .sort((a, b) => b[1].expected - a[1].expected);
+
+            info.innerHTML = `
+                <h2>${sport} - ${gender}</h2>
+                <h3>${eventName}</h3>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>Expected Points</th>
+                    </tr>
+                    ${sortedAthletes.map(([name, data]) => `
+                        <tr>
+                            <td>${name}</td>
+                            <td>${countryMap[data.country] || data.country} (${data.country})</td>
+                            <td>${data.expected}</td>
+                        </tr>
+                    `).join('')}
+                </table>
+            `;
+            container.appendChild(info);
+        }
+
+        function updateHomeButton() {
+            homeButton.style.display = navigationStack.length > 1 ? 'block' : 'none';
+        }
+
+        homeButton.addEventListener('click', () => {
+            navigationStack = [{ key: 'root', data: olympicData }];
+            createHomeScreen(olympicData);
+            updateHomeButton();
+        });
+    </script>
+</body>
+
+</html>
