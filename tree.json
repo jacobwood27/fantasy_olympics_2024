@@ -1103,121 +1103,121 @@
                 "Chris": {
                     "country": "CMR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "SWE",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "NED",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "CAY",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "AUS",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "SUR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "LUX",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "KSA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "BAR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "GBR",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "FRA",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "TAN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "THA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "ARU",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "CHN",
                     "expected": 3.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "NZL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "USA",
                     "expected": 1.9,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "ITA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "ROU",
                     "expected": 2.7,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "CAN",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -1225,121 +1225,243 @@
                 "Chris": {
                     "country": "LAT",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "BUL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "AUS",
                     "expected": 1.9,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "NED",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "ISL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "BRN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "KOR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "KGZ",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "JOR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "MEX",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "SWE",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "LTU",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "FIN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "FRA",
                     "expected": 1.9,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "USA",
                     "expected": 1.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "PAN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "JPN",
                     "expected": 0.9,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "POL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "HON",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "CHN",
                     "expected": 3.3,
-                    "actual": "",
+                    "actual": "0.0",
+                    "date": "7/31"
+                }
+            },
+            "200m Butterfly": {
+                "Chris": {
+                    "country": "HUN",
+                    "expected": 2.8,
+                    "actual": "3.0",
+                    "date": "7/31"
+                },
+                "Erin": {
+                    "country": "CHN",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Paul": {
+                    "country": "AZE",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Derrick": {
+                    "country": "NZL",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Madison": {
+                    "country": "RSA",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Jesse": {
+                    "country": "AUT",
+                    "expected": 0.2,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Jake": {
+                    "country": "ITA",
+                    "expected": 0.1,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Bridget": {
+                    "country": "KOR",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Anna": {
+                    "country": "EOR",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Erica": {
+                    "country": "CHI",
+                    "expected": 0.1,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "August": {
+                    "country": "BUL",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Allison": {
+                    "country": "JPN",
+                    "expected": 1.9,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Anthony": {
+                    "country": "USA",
+                    "expected": 0.3,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Will": {
+                    "country": "FRA",
+                    "expected": 3.2,
+                    "actual": "5.0",
+                    "date": "7/31"
+                },
+                "Nick": {
+                    "country": "CAN",
+                    "expected": 0.2,
+                    "actual": "1.0",
+                    "date": "7/31"
+                },
+                "Vince": {
+                    "country": "SUI",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Annie": {
+                    "country": "ESP",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Dan": {
+                    "country": "POL",
+                    "expected": 0.2,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Kevin": {
+                    "country": "NCA",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/31"
+                },
+                "Jacob": {
+                    "country": "BRA",
+                    "expected": 0.0,
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -1461,128 +1583,6 @@
                 "Jacob": {
                     "country": "ITA",
                     "expected": 0.4,
-                    "actual": "",
-                    "date": "8/1"
-                }
-            },
-            "200m Butterfly": {
-                "Chris": {
-                    "country": "HUN",
-                    "expected": 2.8,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Erin": {
-                    "country": "CHN",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Paul": {
-                    "country": "AZE",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Derrick": {
-                    "country": "NZL",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Madison": {
-                    "country": "RSA",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Jesse": {
-                    "country": "AUT",
-                    "expected": 0.2,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Jake": {
-                    "country": "ITA",
-                    "expected": 0.1,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Bridget": {
-                    "country": "KOR",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Anna": {
-                    "country": "EOR",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Erica": {
-                    "country": "CHI",
-                    "expected": 0.1,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "August": {
-                    "country": "BUL",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Allison": {
-                    "country": "JPN",
-                    "expected": 1.9,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Anthony": {
-                    "country": "USA",
-                    "expected": 0.3,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Will": {
-                    "country": "FRA",
-                    "expected": 3.2,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Nick": {
-                    "country": "CAN",
-                    "expected": 0.2,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Vince": {
-                    "country": "SUI",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Annie": {
-                    "country": "ESP",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Dan": {
-                    "country": "POL",
-                    "expected": 0.2,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Kevin": {
-                    "country": "NCA",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "8/1"
-                },
-                "Jacob": {
-                    "country": "BRA",
-                    "expected": 0.0,
                     "actual": "",
                     "date": "8/1"
                 }
@@ -3789,121 +3789,121 @@
                 "Chris": {
                     "country": "PHI",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "SWE",
                     "expected": 1.4,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "ZIM",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "AUS",
                     "expected": 3.9,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "GRN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "ISL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "SUD",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "CAY",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "FRA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "CZE",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "POL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "CYP",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "USA",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "ALG",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "HKG",
                     "expected": 2.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "CHN",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "SLO",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "GBR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "BOT",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "NED",
                     "expected": 1.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -3911,121 +3911,121 @@
                 "Chris": {
                     "country": "ITA",
                     "expected": 1.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "CHI",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "GER",
                     "expected": 0.9,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "NZL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "MLT",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "GER",
                     "expected": 0.9,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "HUN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "CHN",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "SGP",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "HUN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "USA",
                     "expected": 5.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "FRA",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "HUN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "AUS",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "CHN",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "FRA",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "BRA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "AUS",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "GER",
                     "expected": 0.9,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "CHI",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -4033,121 +4033,121 @@
                 "Chris": {
                     "country": "CHN",
                     "expected": 3.7,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "PRK",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "FRA",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "CAN",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "PRK",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "CAN",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "GBR",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "PRK",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "UKR",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "PRK",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "UKR",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "CHN",
                     "expected": 3.7,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "CHN",
                     "expected": 3.7,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "MEX",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "MEX",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "CHN",
                     "expected": 3.7,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "GBR",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "FRA",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "GBR",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "USA",
                     "expected": 1.7,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -5067,7 +5067,7 @@
                     "date": "8/4"
                 },
                 "August": {
-                    "country": "Others",
+                    "country": "GBR",
                     "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
@@ -5079,7 +5079,7 @@
                     "date": "8/4"
                 },
                 "Anthony": {
-                    "country": "Others",
+                    "country": "GBR",
                     "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
@@ -5097,7 +5097,7 @@
                     "date": "8/4"
                 },
                 "Vince": {
-                    "country": "Others",
+                    "country": "GBR",
                     "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
@@ -5115,7 +5115,7 @@
                     "date": "8/4"
                 },
                 "Kevin": {
-                    "country": "Others",
+                    "country": "GBR",
                     "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
@@ -6237,121 +6237,121 @@
                 "Chris": {
                     "country": "CRO",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "BRA",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "CAN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "AUS",
                     "expected": 2.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "BRA",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "GBR",
                     "expected": 1.6,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "CRO",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "JPN",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "ARG",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "JPN",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "GBR",
                     "expected": 1.6,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "RSA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "LAT",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "BRA",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "FRA",
                     "expected": 2.9,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "ARG",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "USA",
                     "expected": 0.7,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "AUS",
                     "expected": 2.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "LAT",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "ARG",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 }
             },
@@ -7581,121 +7581,121 @@
                 "Chris": {
                     "country": "AUS",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "CHN",
                     "expected": 1.8,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "GER",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "FRA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "CZE",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "AUS",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "GER",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "SUI",
                     "expected": 1.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "SUI",
                     "expected": 1.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "CHN",
                     "expected": 1.8,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "AUS",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "GBR",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "FRA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "COL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "GBR",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "GER",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "SUI",
                     "expected": 1.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "CHI",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "GER",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "USA",
                     "expected": 5.0,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 }
             },
@@ -9049,121 +9049,121 @@
                 "Chris": {
                     "country": "CAN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "FRA",
                     "expected": 1.4,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "EGY",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "IRI",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "EGY",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "USA",
                     "expected": 1.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "KOR",
                     "expected": 2.8,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "HUN",
                     "expected": 1.6,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "KOR",
                     "expected": 2.8,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "FRA",
                     "expected": 1.4,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "EGY",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "USA",
                     "expected": 1.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "CAN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "EGY",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "IRI",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "IRI",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "ITA",
                     "expected": 1.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "ITA",
                     "expected": 1.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "HUN",
                     "expected": 1.6,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "FRA",
                     "expected": 1.4,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 }
             },
@@ -10641,121 +10641,121 @@
                 "Chris": {
                     "country": "ITA",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "SRB",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "TUR",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "ESP",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "FRA",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "JPN",
                     "expected": 3.3,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "GEO",
                     "expected": 2.6,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "CUB",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "BUL",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "KGZ",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "NED",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "SWE",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "HUN",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "TJK",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "GRE",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "AZE",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "LBN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "KOR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "BUR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "UZB",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -11497,121 +11497,121 @@
                 "Chris": {
                     "country": "SLO",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "DEN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "ESP",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "JPN",
                     "expected": 2.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "HUN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "GER",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "FRA",
                     "expected": 1.7,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "AUT",
                     "expected": 0.7,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "ITA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "AUS",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "GRE",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "PRK",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "BIH",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "TUR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "ISR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "POR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "PUR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "CRO",
                     "expected": 2.7,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "GBR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "NED",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -12555,8 +12555,8 @@
                     "date": "8/5"
                 },
                 "Anthony": {
-                    "country": "OTH",
-                    "expected": 0.4,
+                    "country": "CZE",
+                    "expected": 0.5,
                     "actual": "",
                     "date": "8/5"
                 },
@@ -13587,121 +13587,121 @@
                 "Chris": {
                     "country": "USA",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "TPE",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "TUR",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "GER",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "SMR",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "CHN",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "GUA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "AUS",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "FRA",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "GBR",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "SVK",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "ESP",
                     "expected": 1.5,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "KAZ",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "LBN",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "ITA",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "KOR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "FIN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "POR",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "IND",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "EGY",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -14819,121 +14819,121 @@
                 "Chris": {
                     "country": "POL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "USA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "ITA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "AUS",
                     "expected": 3.7,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "GBR",
                     "expected": 1.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "NED",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "UKR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "CAN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "SLO",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "CZE",
                     "expected": 1.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "SVK",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "AND",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "FRA",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "IRL",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "BRA",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "GER",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "JPN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "AUT",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "CHN",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "ESP",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -18007,121 +18007,121 @@
                 "Chris": {
                     "country": "JPN",
                     "expected": 2.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "NED",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "BRA",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "USA",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "KOR",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "EGY",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "CHN",
                     "expected": 2.3,
-                    "actual": "",
+                    "actual": "4.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "ESP",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "AUS",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "TUR",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "CYP",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "ITA",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "CAN",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "BUL",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "GBR",
                     "expected": 0.8,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "SUI",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "BEL",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "GER",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "UZB",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "UKR",
                     "expected": 0.5,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -19135,8 +19135,8 @@
                     "date": "8/1"
                 },
                 "Jesse": {
-                    "country": "OTH",
-                    "expected": 0.3,
+                    "country": "BRA",
+                    "expected": 0.4,
                     "actual": "",
                     "date": "8/1"
                 },
@@ -19177,8 +19177,8 @@
                     "date": "8/1"
                 },
                 "Anthony": {
-                    "country": "OTH",
-                    "expected": 0.3,
+                    "country": "BRA",
+                    "expected": 0.4,
                     "actual": "",
                     "date": "8/1"
                 },
@@ -19599,8 +19599,8 @@
                     "date": "8/4"
                 },
                 "Erin": {
-                    "country": "OTH",
-                    "expected": 0.7,
+                    "country": "GER",
+                    "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
                 },
@@ -19629,14 +19629,14 @@
                     "date": "8/4"
                 },
                 "Jake": {
-                    "country": "OTH",
-                    "expected": 0.7,
+                    "country": "GER",
+                    "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
                 },
                 "Bridget": {
-                    "country": "OTH",
-                    "expected": 0.7,
+                    "country": "GER",
+                    "expected": 0.5,
                     "actual": "",
                     "date": "8/4"
                 },
@@ -19715,8 +19715,8 @@
             },
             "Artistic Balance Beam": {
                 "Chris": {
-                    "country": "Others",
-                    "expected": 0.1,
+                    "country": "BRA",
+                    "expected": 0.3,
                     "actual": "",
                     "date": "8/5"
                 },
@@ -20699,128 +20699,254 @@
             }
         }
     },
+    "BONUS": {
+        "BONUS": {
+            "BONUS": {
+                "Chris": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Erin": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Paul": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Derrick": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Madison": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Jesse": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "3.0",
+                    "date": "7/30"
+                },
+                "Jake": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Bridget": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Anna": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Erica": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "August": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Allison": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Anthony": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Will": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Nick": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Vince": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Annie": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Dan": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Kevin": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                },
+                "Jacob": {
+                    "country": "BON",
+                    "expected": 0.0,
+                    "actual": "0.0",
+                    "date": "7/30"
+                }
+            }
+        }
+    },
     "TRIATHLON": {
         "Men's": {
             "Individual": {
                 "Chris": {
                     "country": "BRA",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Erin": {
                     "country": "NZL",
                     "expected": 1.8,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "3.0",
+                    "date": "7/31"
                 },
                 "Paul": {
                     "country": "DEN",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Derrick": {
                     "country": "ISR",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Madison": {
                     "country": "CAN",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Jesse": {
                     "country": "JPN",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Jake": {
                     "country": "RSA",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Bridget": {
                     "country": "ESP",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Anna": {
                     "country": "GER",
                     "expected": 0.2,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Erica": {
                     "country": "POR",
                     "expected": 0.2,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "August": {
                     "country": "BEL",
                     "expected": 0.2,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Allison": {
                     "country": "USA",
                     "expected": 0.7,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Anthony": {
                     "country": "AZE",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Will": {
                     "country": "GBR",
                     "expected": 2.7,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "5.0",
+                    "date": "7/31"
                 },
                 "Nick": {
                     "country": "ITA",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Vince": {
                     "country": "FRA",
                     "expected": 1.8,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "1.0",
+                    "date": "7/31"
                 },
                 "Annie": {
                     "country": "CHI",
                     "expected": 0.0,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Dan": {
                     "country": "HUN",
                     "expected": 0.1,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Kevin": {
                     "country": "AUS",
                     "expected": 0.5,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 },
                 "Jacob": {
                     "country": "NOR",
                     "expected": 0.7,
-                    "actual": "",
-                    "date": "7/30"
+                    "actual": "0.0",
+                    "date": "7/31"
                 }
             }
         },
@@ -20830,121 +20956,121 @@
                     "country": "BER",
                     "expected": 1.1,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Erin": {
                     "country": "POL",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Paul": {
                     "country": "BEL",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Derrick": {
                     "country": "ESP",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Madison": {
                     "country": "AUT",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Jesse": {
                     "country": "MEX",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Jake": {
                     "country": "GUM",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Bridget": {
                     "country": "SUI",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Anna": {
                     "country": "FRA",
                     "expected": 3.2,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Erica": {
                     "country": "USA",
                     "expected": 1.1,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "August": {
                     "country": "ISL",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Allison": {
                     "country": "NED",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Anthony": {
                     "country": "GER",
                     "expected": 0.6,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Will": {
                     "country": "CZE",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Nick": {
                     "country": "ECU",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Vince": {
                     "country": "RSA",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Annie": {
                     "country": "GBR",
                     "expected": 3.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Dan": {
                     "country": "CHN",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Kevin": {
                     "country": "NOR",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 },
                 "Jacob": {
                     "country": "POR",
                     "expected": 0.0,
                     "actual": "",
-                    "date": "7/31"
+                    "date": "8/1"
                 }
             }
         },
@@ -21079,121 +21205,121 @@
                 "Chris": {
                     "country": "ROU",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "NOR",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "ITA",
                     "expected": 1.7,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "GER",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "GBR",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "ITA",
                     "expected": 1.7,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "POL",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "GBR",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "EST",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "NOR",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "EST",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "ROU",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "NED",
                     "expected": 4.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "NOR",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "SUI",
                     "expected": 0.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "GBR",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "GER",
                     "expected": 0.4,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "NED",
                     "expected": 4.0,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "POL",
                     "expected": 1.0,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "GBR",
                     "expected": 1.3,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 }
             },
@@ -21935,121 +22061,121 @@
                 "Chris": {
                     "country": "GBR",
                     "expected": 4.1,
-                    "actual": "",
+                    "actual": "5.0",
                     "date": "7/31"
                 },
                 "Erin": {
                     "country": "GER",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Paul": {
                     "country": "USA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Derrick": {
                     "country": "UKR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Madison": {
                     "country": "USA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jesse": {
                     "country": "SUI",
                     "expected": 0.6,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jake": {
                     "country": "NED",
                     "expected": 2.0,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Bridget": {
                     "country": "NED",
                     "expected": 2.0,
-                    "actual": "",
+                    "actual": "3.0",
                     "date": "7/31"
                 },
                 "Anna": {
                     "country": "UKR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Erica": {
                     "country": "CHN",
                     "expected": 2.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "August": {
                     "country": "USA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Allison": {
                     "country": "GER",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 },
                 "Anthony": {
                     "country": "USA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Will": {
                     "country": "ROU",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Nick": {
                     "country": "ROU",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Vince": {
                     "country": "USA",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Annie": {
                     "country": "UKR",
                     "expected": 0.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Dan": {
                     "country": "AUS",
                     "expected": 0.2,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Kevin": {
                     "country": "CHN",
                     "expected": 2.0,
-                    "actual": "",
+                    "actual": "0.0",
                     "date": "7/31"
                 },
                 "Jacob": {
                     "country": "GER",
                     "expected": 0.1,
-                    "actual": "",
+                    "actual": "1.0",
                     "date": "7/31"
                 }
             },
@@ -22783,256 +22909,6 @@
                     "expected": 0.0,
                     "actual": "",
                     "date": "8/3"
-                }
-            }
-        }
-    },
-    "SURFING": {
-        "Men's": {
-            "Shortboard": {
-                "Chris": {
-                    "country": "GER",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Erin": {
-                    "country": "PER",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Paul": {
-                    "country": "AUS",
-                    "expected": 1.8,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Derrick": {
-                    "country": "NZL",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Madison": {
-                    "country": "JPN",
-                    "expected": 0.2,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Jesse": {
-                    "country": "AUS",
-                    "expected": 1.8,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Jake": {
-                    "country": "MAR",
-                    "expected": 0.3,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Bridget": {
-                    "country": "RSA",
-                    "expected": 0.4,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Anna": {
-                    "country": "USA",
-                    "expected": 2.3,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Erica": {
-                    "country": "NZL",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "August": {
-                    "country": "FRA",
-                    "expected": 1.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Allison": {
-                    "country": "BRA",
-                    "expected": 2.7,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Anthony": {
-                    "country": "ITA",
-                    "expected": 0.1,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Will": {
-                    "country": "MEX",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Nick": {
-                    "country": "ESP",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Vince": {
-                    "country": "AUS",
-                    "expected": 1.8,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Annie": {
-                    "country": "RSA",
-                    "expected": 0.4,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Dan": {
-                    "country": "MEX",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Kevin": {
-                    "country": "INA",
-                    "expected": 0.1,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Jacob": {
-                    "country": "ESA",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                }
-            }
-        },
-        "Women's": {
-            "Shortboard": {
-                "Chris": {
-                    "country": "JPN",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Erin": {
-                    "country": "POR",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Paul": {
-                    "country": "CHN",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Derrick": {
-                    "country": "CHN",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Madison": {
-                    "country": "JPN",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Jesse": {
-                    "country": "FRA",
-                    "expected": 2.1,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Jake": {
-                    "country": "ISR",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Bridget": {
-                    "country": "NCA",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Anna": {
-                    "country": "NZL",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Erica": {
-                    "country": "CRC",
-                    "expected": 0.8,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "August": {
-                    "country": "RSA",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Allison": {
-                    "country": "ISR",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Anthony": {
-                    "country": "PER",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Will": {
-                    "country": "AUS",
-                    "expected": 1.3,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Nick": {
-                    "country": "FRA",
-                    "expected": 2.1,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Vince": {
-                    "country": "ESP",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Annie": {
-                    "country": "BRA",
-                    "expected": 1.2,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Dan": {
-                    "country": "USA",
-                    "expected": 3.6,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Kevin": {
-                    "country": "CAN",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
-                },
-                "Jacob": {
-                    "country": "GER",
-                    "expected": 0.0,
-                    "actual": "",
-                    "date": "7/31"
                 }
             }
         }
@@ -31361,6 +31237,256 @@
                     "expected": 0.1,
                     "actual": "",
                     "date": "8/4"
+                }
+            }
+        }
+    },
+    "SURFING": {
+        "Men's": {
+            "Shortboard": {
+                "Chris": {
+                    "country": "GER",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Erin": {
+                    "country": "PER",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Paul": {
+                    "country": "AUS",
+                    "expected": 1.8,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Derrick": {
+                    "country": "NZL",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Madison": {
+                    "country": "JPN",
+                    "expected": 0.2,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Jesse": {
+                    "country": "AUS",
+                    "expected": 1.8,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Jake": {
+                    "country": "MAR",
+                    "expected": 0.3,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Bridget": {
+                    "country": "RSA",
+                    "expected": 0.4,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Anna": {
+                    "country": "USA",
+                    "expected": 2.3,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Erica": {
+                    "country": "NZL",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "August": {
+                    "country": "FRA",
+                    "expected": 1.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Allison": {
+                    "country": "BRA",
+                    "expected": 2.7,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Anthony": {
+                    "country": "ITA",
+                    "expected": 0.1,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Will": {
+                    "country": "MEX",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Nick": {
+                    "country": "ESP",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Vince": {
+                    "country": "AUS",
+                    "expected": 1.8,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Annie": {
+                    "country": "RSA",
+                    "expected": 0.4,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Dan": {
+                    "country": "MEX",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Kevin": {
+                    "country": "INA",
+                    "expected": 0.1,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Jacob": {
+                    "country": "ESA",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                }
+            }
+        },
+        "Women's": {
+            "Shortboard": {
+                "Chris": {
+                    "country": "JPN",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Erin": {
+                    "country": "POR",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Paul": {
+                    "country": "CHN",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Derrick": {
+                    "country": "CHN",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Madison": {
+                    "country": "JPN",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Jesse": {
+                    "country": "FRA",
+                    "expected": 2.1,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Jake": {
+                    "country": "ISR",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Bridget": {
+                    "country": "NCA",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Anna": {
+                    "country": "NZL",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Erica": {
+                    "country": "CRC",
+                    "expected": 0.8,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "August": {
+                    "country": "RSA",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Allison": {
+                    "country": "ISR",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Anthony": {
+                    "country": "PER",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Will": {
+                    "country": "AUS",
+                    "expected": 1.3,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Nick": {
+                    "country": "FRA",
+                    "expected": 2.1,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Vince": {
+                    "country": "ESP",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Annie": {
+                    "country": "BRA",
+                    "expected": 1.2,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Dan": {
+                    "country": "USA",
+                    "expected": 3.6,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Kevin": {
+                    "country": "CAN",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
+                },
+                "Jacob": {
+                    "country": "GER",
+                    "expected": 0.0,
+                    "actual": "",
+                    "date": "8/3"
                 }
             }
         }

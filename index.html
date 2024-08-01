@@ -526,7 +526,7 @@
                     ${scores.map((score, index) => `
                         <tr data-name="${score.name}" style="background-color: ${colors[index]};">
                             <td class="nowrap">${score.name}</td>
-                            <td class="nowrap">${score.actualPoints.toFixed(1)}</td>
+                            <td class="nowrap">${score.actualPoints.toFixed(0)}</td>
                             <td class="nowrap">${score.predictedPoints.toFixed(1)}</td>
                         </tr>
                     `).join('')}
